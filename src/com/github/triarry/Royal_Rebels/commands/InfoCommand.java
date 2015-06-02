@@ -5,14 +5,14 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 
-import com.github.triarry.iRestore.iRestore;
+import com.github.triarry.Royal_Rebels.Royal_Rebels;
 
 public class InfoCommand implements CommandExecutor {
 
 	@SuppressWarnings("unused")
-	private iRestore plugin;
+	private Royal_Rebels plugin;
 	  
-	public InfoCommand(iRestore plugin){ 
+	public InfoCommand(Royal_Rebels plugin){ 
 		this.plugin = plugin; 
 	}
 
